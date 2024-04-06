@@ -1,12 +1,12 @@
-#Wolt 2024 Software Engineering Internship Preassignment, Backend assignment with Python
+# Wolt 2024 Software Engineering Internship Preassignment, Backend assignment with Python
 
-###Table of contents:
+### Table of contents:
 [Introduction](#introduction)  
-[Running app](#running)
+[Running app](#running)  
 [Specific calculation rules](#calculation)
 
 <a name="introduction">
-##Introduction
+## Introduction
 
 Assignment details directly from [Wolt's instructions](https://github.com/woltapp/engineering-internship-2024#)
 
@@ -28,7 +28,7 @@ This projects' testing gravitated toward API itself in tests/test_main.py, with 
 
 
 <a name="running">
-##Running app
+## Running app
 
 The app uses poetry as a package manager, FastAPI for the API and pytest for testing. If poetry is not installed, it has to be installed before proceeding. 
 
@@ -54,7 +54,7 @@ curl -X POST http://127.0.0.1:8000 -H 'Content-Type: application/json' -d '{"car
 
 
 <a name="calculation">
-##Specific calculation rules
+## Specific calculation rules
 
 Rules for calculating a delivery fee, directly from [Wolt's instructions](https://github.com/woltapp/engineering-internship-2024#)
 * If the cart value is less than 10€, a small order surcharge is added to the delivery price. The surcharge is the difference between the cart value and 10€. For example if the cart value is 8.90€, the surcharge will be 1.10€.

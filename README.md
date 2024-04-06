@@ -5,7 +5,7 @@
 [Running app](#running)  
 [Specific calculation rules](#calculation)
 
-<a name="introduction">
+<a name="introduction"></a>
 ## Introduction
 
 Assignment details directly from [Wolt's instructions](https://github.com/woltapp/engineering-internship-2024#)
@@ -27,7 +27,7 @@ The app itself is located in delivery_fee_calculator/ with the API being located
 This projects' testing gravitated toward API itself in tests/test_main.py, with a single checkup test in tests/modules/test_cost_calculator_class.py. 
 
 
-<a name="running">
+<a name="running"></a>
 ## Running app
 
 The app uses poetry as a package manager, FastAPI for the API and pytest for testing. If poetry is not installed, it has to be installed before proceeding. 
@@ -53,7 +53,7 @@ curl -X POST http://127.0.0.1:8000 -H 'Content-Type: application/json' -d '{"car
 ```
 
 
-<a name="calculation">
+<a name="calculation"></a>
 ## Specific calculation rules
 
 Rules for calculating a delivery fee, directly from [Wolt's instructions](https://github.com/woltapp/engineering-internship-2024#)
